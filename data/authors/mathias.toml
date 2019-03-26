@@ -1,0 +1,10 @@
+url = "http://www.sizeofvoid.com"
+
+[name]
+display = "Mathias Westerdahl"
+
+[image]
+url = "https://avatars3.githubusercontent.com/u/1349334"
+
+[en]
+description = "A game developer since 2001. Currently at http://www.defold.com"

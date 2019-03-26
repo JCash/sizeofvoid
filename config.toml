@@ -1,0 +1,102 @@
+baseURL = "http://www.sizeofvoid.com/"
+languageCode = "en-us"
+title = "sizeof(void)"
+googleAnalytics = "UA-45192408-2"
+
+theme = ['den', 'custom']
+enableEmoji = true
+
+# Syntax Highlight
+PygmentsCodeFences = true
+PygmentsUseClasses = true # required for shhighlight shortcode
+
+[author]
+    name = "Mathias Westerdahl"
+
+[permalinks]
+    posts = "/:year/:month/:day/:slug/"
+    categories = "/category/:slug/"      # required
+    tags = "/tag/:slug/"                 # required
+    pages = "/:slug/"
+
+[sitemap]                    # required
+    changefreq = "weekly"
+    priority = 0.5
+    filename = "sitemap.xml"
+
+[taxonomies]
+    author = "authors"
+    tag = "tags"
+    archive = "archives"
+
+[params]
+    logoTitle = "sizeof(void)" # shown on top-left, default: title
+    headerImage = "images/background.jpg"
+    dateFormatToUse = "2006-01-02"
+    showAuthorCard = true # Whether to show author information below the article
+    #siteLogoImage = "images/globe.svg" # shown besides logoTitle
+
+
+[related]
+    threshold = 50
+
+    #To get stable "See also" sections we, by default, exclude newer related pages.
+    includeNewer = true
+
+    #Will lower case keywords in both queries and in the indexes.
+    toLower = false
+
+[[related.indices]]
+    name = "categories"
+    weight = 200
+
+[[related.indices]]
+    name = "keywords"
+    weight = 150
+
+[[related.indices]]
+    name = "tags"
+    weight = 100
+
+
+[languages.en]
+    languageCode = "en"
+    languageName = "English"
+    contentDir = "content/"
+    weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Programming"
+        weight = 10
+        identifier = "programming"
+        url = "category/programming/"
+
+    [[languages.en.menu.main]]
+        name = "Notes"
+        weight = 20
+        identifier = "notes"
+        url = "category/notes/"
+
+    [[languages.en.menu.main]]
+        name = "Demos"
+        weight = 30
+        identifier = "demos"
+        url = "category/demos/"
+
+    [[languages.en.menu.social]]
+        name = "GitHub"
+        weight = 10
+        identifier = "github"
+        url = "https://github.com/JCash"
+
+    [[languages.en.menu.social]]
+        name = "Twitter"
+        weight = 20
+        identifier = "twitter"
+        url = "https://twitter.com/mwesterdahl76"
+
+    [[languages.en.menu.links]]
+        name = "About Me"
+        weight = 10
+        identifier = "about-me"
+        url = "about"
