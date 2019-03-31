@@ -4,6 +4,7 @@ date: 2012-08-09T00:05:00.000+02:00
 draft: false
 tags : [gcc, C++, cl, hashlittle, clang]
 authors: [mathias]
+categories: [programming]
 ---
 
 While waiting for Visual C++ to implement the C++11 features I wrote about in the [previous entry](http://sizeofvoid.blogspot.se/2012/07/compile-time-hashes.html), I wanted a solution that worked on windows. This time I needed to implement the hashlittle function found in [lookup3.c](http://burtleburtle.net/bob/hash/).

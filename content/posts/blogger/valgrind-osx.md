@@ -2,8 +2,9 @@
 title: 'valgrind + osx'
 date: 2011-04-16T12:18:00.000+02:00
 draft: false
-tags : [testing, 10.6, valgrind]
+tags : [testing, valgrind, debugging]
 authors: [mathias]
+categories: [notes]
 ---
 
 # valgrind + OSX

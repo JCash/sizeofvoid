@@ -4,6 +4,7 @@ date: 2013-10-09T00:20:00.000+02:00
 draft: false
 tags: [vm]
 authors: [mathias]
+categories: [notes]
 ---
 
 Too many times I've forgotten the exact commands on how to compact the virtual drives. Especially for windows, where the tool used, used to have a different name of the argument passed to it. Compacting the drive can save you lots of disc space (last time my drive went from 12GB to 5GB), and for a smaller lap top drive, that makes a big difference.

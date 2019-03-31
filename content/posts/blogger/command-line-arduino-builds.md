@@ -3,6 +3,8 @@ title: 'Command line Arduino builds'
 date: 2017-05-28T11:55:00.000+02:00
 draft: false
 authors: [mathias]
+categories: [notes]
+tags: [arduino]
 ---
 
 Now that I have the Arduino up and running, I knew I wanted to use my editor of choice and command line build tools.

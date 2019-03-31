@@ -3,6 +3,7 @@ title: 'binpacking + fonts'
 date: 2013-01-05T01:10:00.001+01:00
 draft: false
 tags : [bin pack, C++]
+categories: [programming]
 authors: [mathias]
 ---
 

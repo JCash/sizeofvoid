@@ -4,6 +4,7 @@ date: 2013-01-28T12:09:00.000+01:00
 draft: false
 tags : [araxis, git]
 authors: [mathias]
+categories: [notes]
 ---
 
 I struggled with setting up the git environment in my windows environment.

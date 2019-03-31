@@ -4,6 +4,7 @@ date: 2017-05-24T00:15:00.002+02:00
 draft: false
 tags : [arduino]
 authors: [mathias]
+categories: [notes]
 ---
 
 I recently got hooked by the game [Shenzhen I/O](http://store.steampowered.com/app/504210/SHENZHEN_IO/) which I've played and enjoyed a lot with my friends. And, after a while, I got curious about learning some (really) simple electronics. So I picked up a subscription to [TronClub](http://tronclub.com/). But, after a little while, my coding brain wanted to skip to the fun stuff: Creating something that was really working and useful in very few bytes, and also to get to do some soldering!

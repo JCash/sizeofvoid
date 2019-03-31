@@ -4,6 +4,7 @@ date: 2016-03-27T11:34:00.000+02:00
 draft: false
 tags : [open addressing, chaining, C++, Hashtable, cache, Robin Hood]
 authors: [mathias]
+categories: [programming]
 ---
 
 Recently I realized I needed a hash table where I had complete control of the memory ownership.

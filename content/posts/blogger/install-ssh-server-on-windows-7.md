@@ -4,6 +4,7 @@ date: 2014-07-18T18:18:00.002+02:00
 draft: false
 tags : [ssh, Parallels Desktop, Bitwise, VM]
 authors: [mathias]
+categories: [notes]
 ---
 
 Since I don't want to maintain several Parallels Desktop VM's on each of my machines (due to disc space and maintenance), I need to be able to ssh into them, but also use the same shared folder where I have my code.

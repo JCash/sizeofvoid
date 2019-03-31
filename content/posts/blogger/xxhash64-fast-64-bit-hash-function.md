@@ -4,6 +4,7 @@ date: 2014-07-16T16:43:00.000+02:00
 draft: false
 tags : [C++, hash, xxHash64]
 authors: [mathias]
+categories: [notes]
 ---
 
 In my work I often use various hash functions as hashes or checksums, and it's always beneficial to know about different qualities and speed of the functions available.

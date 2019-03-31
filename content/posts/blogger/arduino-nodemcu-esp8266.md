@@ -3,6 +3,8 @@ title: 'Arduino + NodeMCU / ESP8266'
 date: 2017-08-30T18:50:00.000+02:00
 draft: false
 authors: [mathias]
+categories: [notes]
+tags: [arduino]
 ---
 
 To program for the ESP8266, you need to install some packages for the Arduino program/computer.

@@ -4,6 +4,7 @@ date: 2018-12-01T12:46:00.001+01:00
 draft: false
 tags : [ipa, OSX, macOS, cctools, windows, lipo, strip, Win64, Win32]
 authors: [mathias]
+categories: [notes]
 ---
 
 I wanted to try building cctools for Windows,

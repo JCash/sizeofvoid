@@ -4,6 +4,7 @@ date: 2014-02-08T10:11:00.002+01:00
 draft: false
 tags : [ssh, Remote System Explorer, Eclipse]
 authors: [mathias]
+categories: [notes]
 ---
 
 I work a lot across multiple systems of various OS'es and configurations, and usually I do it via ssh. However, almost everytime, the tasks get much slower than they ought to be, due to the fact that the remote system doesn't have your local tools and configs.

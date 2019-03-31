@@ -10,6 +10,8 @@ enableEmoji = true
 PygmentsCodeFences = true
 PygmentsUseClasses = true # required for shhighlight shortcode
 
+paginate = 20
+
 [author]
     name = "Mathias Westerdahl"
 
@@ -26,6 +28,7 @@ PygmentsUseClasses = true # required for shhighlight shortcode
 
 [taxonomies]
     author = "authors"
+    category = "categories"
     tag = "tags"
     archive = "archives"
 

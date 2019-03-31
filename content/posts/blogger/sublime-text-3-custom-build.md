@@ -3,6 +3,8 @@ title: 'Sublime Text 3 custom build'
 date: 2017-05-28T16:22:00.000+02:00
 draft: false
 authors: [mathias]
+tags: [IDE, Sublime Text]
+categories: [notes]
 ---
 
 Adding a custom build step to Sublime Text 3 is easy.

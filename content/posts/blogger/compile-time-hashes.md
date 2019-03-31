@@ -4,6 +4,7 @@ date: 2012-07-12T21:36:00.001+02:00
 draft: false
 tags : [MurmurHash3, constexpr, gcc, C++, clang]
 authors: [mathias]
+categories: [programming]
 ---
 
 ## C++11

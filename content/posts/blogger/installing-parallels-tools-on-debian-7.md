@@ -3,6 +3,8 @@ title: 'Installing Parallels Tools on Debian 7'
 date: 2014-02-15T14:52:00.002+01:00
 draft: false
 authors: [mathias]
+categories: [notes]
+tags: [vm]
 ---
 
 _This entry is about remembering how I solved this issue (as well as boost some traffix for the blogger that solved it)_

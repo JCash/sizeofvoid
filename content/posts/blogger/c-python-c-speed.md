@@ -4,6 +4,7 @@ date: 2013-11-10T12:42:00.003+01:00
 draft: false
 tags : [C++, Python, C#, Google Charts]
 authors: [mathias]
+categories: [programming]
 ---
 
 ## The beginning

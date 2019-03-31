@@ -4,6 +4,7 @@ date: 2015-09-28T11:33:00.002+02:00
 draft: false
 tags : [OSX, Parallels Desktop, Keyboard, windows, Key Mapping]
 authors: [mathias]
+categories: [notes]
 ---
 
 I just bought a Windows keyboard to help with my coding(and gaming) but as you can imagine, not everything went without a hitch. In particular, I had troubles with the Command and Option keys due to my muscle memory of working with a mac for so long :)

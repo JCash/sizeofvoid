@@ -4,6 +4,7 @@ date: 2018-01-21T10:39:00.001+01:00
 draft: false
 tags : [OSX, C++, debugging, memory]
 authors: [mathias]
+categories: [programming]
 ---
 
 Sometimes it's beneficial to see the actual memory allocations done by an app, but you don't want to code a full memory allocation system. Perhaps you cannot even rebuild the app.

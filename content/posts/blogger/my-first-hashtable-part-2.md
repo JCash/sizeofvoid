@@ -4,6 +4,7 @@ date: 2016-06-07T00:36:00.000+02:00
 draft: false
 tags : [open addressing, C++, Cache friendly, Fixed memory, Hashtable, Robin Hood]
 authors: [mathias]
+categories: [programming]
 ---
 
 Since the implementation of my first version of my hash table, I've discovered some caveats:

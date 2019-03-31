@@ -4,6 +4,7 @@ date: 2017-05-31T00:56:00.000+02:00
 draft: false
 tags : [debugging, gdb, arduino]
 authors: [mathias]
+categories: [programming]
 ---
 
 While I'm waiting for my first OLED screen to arrive, I decided to learn more about the debugging options available for the Arduino.

@@ -4,6 +4,7 @@ date: 2013-06-08T16:08:00.000+02:00
 draft: false
 tags : [PySide, sqlite, windows, Qt, environment]
 authors: [mathias]
+categories: [notes]
 ---
 
 When upgrading an application to use a newer Qt version (4.8), I stumbled across a weird issue with the sql plugin not loading correctly. Even though I triple checked the paths, it didn't work.

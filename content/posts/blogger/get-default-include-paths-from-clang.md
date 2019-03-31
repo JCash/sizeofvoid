@@ -4,6 +4,7 @@ date: 2018-12-02T14:16:00.000+01:00
 draft: false
 tags : [OSX, Linux, macOS, gcc, SSE4.2, xmmintrin.h, intrinsics, intrin.h, clang, Win32, SSE]
 authors: [mathias]
+categories: [programming]
 ---
 
 
