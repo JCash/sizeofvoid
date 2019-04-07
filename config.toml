@@ -38,6 +38,7 @@ paginate = 20
     dateFormatToUse = "2006-01-02"
     showAuthorCard = true # Whether to show author information below the article
     #siteLogoImage = "images/globe.svg" # shown besides logoTitle
+    customCSS = ["custom.css"]
 
 
 [related]
