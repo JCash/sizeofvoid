@@ -1,7 +1,35 @@
 
-.header-nav {
-    line-height: 10px;
-    height: 80px;
+@import url("syntax.css");
+
+@media (min-width: 767px) {
+    .header-nav {
+        line-height: 10px;
+        height: 56px;
+    }
+
+    .header-date {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #fff;
+      font-weight:400;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .header-nav {
+        height: 54px;
+        background-color: #0005;
+    }
+    .header-wrapper {
+        padding-top: 54px;
+    }
+    .header-date {
+      margin-top: 15px;
+      font-size: 11px;
+      color: #fff;
+      font-weight:300;
+    }
 }
 
 .header-underline {
@@ -37,12 +65,6 @@
   text-transform: none;
 }
 
-.header-date {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #fff;
-  font-weight:400;
-}
 
 h2 {
     margin-bottom: 20px;

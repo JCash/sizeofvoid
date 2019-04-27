@@ -34,7 +34,8 @@ paginate = 20
 
 [params]
     logoTitle = "sizeof(void)" # shown on top-left, default: title
-    headerImage = "images/background.jpg"
+    headerImage = "https://d3n1faj5cqbhy8.cloudfront.net/images/background.jpg"
+    customFavicon = "https://d3n1faj5cqbhy8.cloudfront.net/favicon.ico"
     dateFormatToUse = "2006-01-02"
     showAuthorCard = true # Whether to show author information below the article
     #siteLogoImage = "images/globe.svg" # shown besides logoTitle
