@@ -10,7 +10,7 @@ authors: ['mathias']
 
 *You can find the code at the [github repo](https://github.com/JCash/jctest/)
 or go to the [documentation page](https://jcash.github.io/jctest/)*<br/>
-*Or skip directly to [the results](http://localhost:1313/2019/04/13/replacing-googletest-with-jctest/#results)*
+*Or skip directly to [the results](http://sizeofvoid.com/2019/04/13/replacing-googletest-with-jctest/#results)*
 
 ## Overview
 Every now and then, I feel the urge to find out where the time building a project is spent.
@@ -186,7 +186,7 @@ In our case the build system actually ran `~6s` faster since the tests were smal
 
 ### Difficulty
 
-As a whole, I would classify this endeavor at an `Intermediate` difficulty.
+As a whole, I would classify this endeavor at an intermediate difficulty.
 I would have found it a lot easier if I were better at C++ templates. *I rarely use them*.
 And it's noteworthy that it didn't require any "modern c++" to do this.
 
@@ -196,7 +196,7 @@ For the whole implementation, I estimate to have spent ~2 man weeks on this proj
 
 ### Reinventing the wheel?
 
-Someone might call out something about `"premature optimization"` or `"reinventing the wheel"` (as you hear from time to time). Here´s a great post by [Joshua Barczak](www.joshbarczak.com/blog/?p=580) on the subject.
+Someone might call out something about `"premature optimization"` or `"reinventing the wheel"` (as you hear from time to time). Here´s a great post by [Joshua Barczak](http://www.joshbarczak.com/blog/?p=580) on the subject.
 
 It's not about "reinventing" something, but improving on it.
 If noone tried to improve on the wheel, we'd still be stuck with some old wooden wheel.
@@ -206,6 +206,6 @@ One reason is to learn about the subject, so you can make informed decisions.
 Another reason is that you can customize code to your project, removing things you don't need or improving on those you have (e.g. replacing the stl containers with smaller and faster versions)
 
 Why pay for something you don't need or want, if you don't have to?
-Even if you are ok with the current solution, are you colleagues? Or your boss?
+Even if you are ok with the current solution, are your colleagues? Or your boss?
 
 
