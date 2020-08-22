@@ -229,3 +229,10 @@ bail:
 }
 ```
 
+
+## Summary
+
+As I mentioned, there is no clear cut way of doing this, and I still have no favorite way of doing it.
+Please let me know if I should add any other examples here.
+
+
