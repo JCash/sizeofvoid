@@ -29,6 +29,8 @@ copyright = "Mathias Westerdahl"
     archive = "archives"
 
 [params]
+    description = "A blog about programming bits and bobs"
+    images = ["/images/logo.png"]
     logoTitle = "sizeof(void)"
     headerImage = "https://d3n1faj5cqbhy8.cloudfront.net/images/background.jpg"
     customFavicon = "https://d3n1faj5cqbhy8.cloudfront.net/favicon.ico"
