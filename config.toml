@@ -3,14 +3,10 @@ languageCode = "en-us"
 title = "sizeof(void)"
 googleAnalytics = "UA-45192408-2"
 
-theme = ['den', 'custom']
+theme = 'cactus'
 enableEmoji = true
 
-# Syntax Highlight
-PygmentsCodeFences = true
-PygmentsUseClasses = true # required for shhighlight shortcode
-
-paginate = 20
+copyright = "Mathias Westerdahl"
 
 [author]
     name = "Mathias Westerdahl"
@@ -33,75 +29,59 @@ paginate = 20
     archive = "archives"
 
 [params]
-    logoTitle = "sizeof(void)" # shown on top-left, default: title
+    logoTitle = "sizeof(void)"
     headerImage = "https://d3n1faj5cqbhy8.cloudfront.net/images/background.jpg"
     customFavicon = "https://d3n1faj5cqbhy8.cloudfront.net/favicon.ico"
     dateFormatToUse = "2006-01-02"
     showAuthorCard = true # Whether to show author information below the article
-    #siteLogoImage = "images/globe.svg" # shown besides logoTitle
+    logo = "/images/logo.png"
     customCSS = ["custom.css"]
+    mainSection = "posts"
+    showAllPostsOnHomePage = true
+    postsOnHomePage = 15
+    tagsOverview = true
+    rss = false
+    mathjax = true
 
 
-[related]
-    threshold = 50
 
-    #To get stable "See also" sections we, by default, exclude newer related pages.
-    includeNewer = true
+[[params.social]]
+    name = "github"
+    link = "https://github.com/jcash"
 
-    #Will lower case keywords in both queries and in the indexes.
-    toLower = false
+[[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/mwesterdahl76"
 
-[[related.indices]]
-    name = "categories"
-    weight = 200
+[[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/jcash/"
 
-[[related.indices]]
-    name = "keywords"
-    weight = 150
+[[menu.main]]
+    name = "All"
+    url = "/posts"
+    weight = 2
 
-[[related.indices]]
-    name = "tags"
-    weight = 100
+[[menu.main]]
+    name = "Programming"
+    url = "/category/programming"
+    weight = 3
+
+[[menu.main]]
+    name = "Whoami"
+    url = "/about"
+    weight = 4
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
 
 
-[languages.en]
-    languageCode = "en"
-    languageName = "English"
-    contentDir = "content/"
-    weight = 1
-
-    [[languages.en.menu.main]]
-        name = "Programming"
-        weight = 10
-        identifier = "programming"
-        url = "category/programming/"
-
-    [[languages.en.menu.main]]
-        name = "Notes"
-        weight = 20
-        identifier = "notes"
-        url = "category/notes/"
-
-    [[languages.en.menu.main]]
-        name = "Demos"
-        weight = 30
-        identifier = "demos"
-        url = "category/demos/"
-
-    [[languages.en.menu.social]]
-        name = "GitHub"
-        weight = 10
-        identifier = "github"
-        url = "https://github.com/JCash"
-
-    [[languages.en.menu.social]]
-        name = "Twitter"
-        weight = 20
-        identifier = "twitter"
-        url = "https://twitter.com/mwesterdahl76"
-
-    [[languages.en.menu.links]]
-        name = "About Me"
-        weight = 10
-        identifier = "about-me"
-        url = "about"
