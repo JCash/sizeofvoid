@@ -53,7 +53,7 @@
       </div>
     </header>
 
-  {{ with .Resources.ByType "image" }}
+<!--   {{ with .Resources.ByType "image" }}
     <div class="article-gallery">
       {{ range $index, $value := . }}
       <a class="gallery-item" href="{{ .RelPermalink }}" rel="gallery_{{ $index }}">
@@ -61,7 +61,7 @@
       </a>
       {{ end }}
     </div>
-  {{ end }}
+  {{ end }} -->
     <div class="content" itemprop="articleBody">
       {{ .Content}}
     </div>

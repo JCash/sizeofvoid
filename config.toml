@@ -44,7 +44,13 @@ copyright = "Mathias Westerdahl"
     rss = false
     mathjax = true
 
-
+[[params.twitterCard]]
+    generate = true
+    card = "summary"
+    image = "images/twitter-card-summary-image.png"
+    imageAlt = "Mathias's avatar"
+    site = "mwesterdahl76"
+    creator = "mwesterdahl76"
 
 [[params.social]]
     name = "github"
