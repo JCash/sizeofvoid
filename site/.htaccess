@@ -1,5 +1,4 @@
-RewriteEngine On RewriteCond %{HTTP_HOST} ^sizeofvoid\.com
-RewriteRule (.*) http://www.sizeofvoid.com/$1 [R=301,L]
+DirectoryIndex index.html index.xml index.php index.htm
 
 Header set Cache-Control "max-age=2628000, public"
 
